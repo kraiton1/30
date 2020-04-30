@@ -1,0 +1,207 @@
+{
+  "settings": {
+    "name": "NEW",
+    "currentPage": "30.html",
+    "theme": {
+      "name": "mobirise4",
+      "title": "Mobirise 4",
+      "styling": {
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Rubik",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.12.3",
+    "siteFonts": [],
+    "google-analytics": "<script language='JavaScript1.2'>\nfunction disableselect(e){\nreturn false\n}\nfunction reEnable(){\nreturn true\n}\ndocument.onselectstart=new Function (\"return false\")\nif (window.sidebar){\ndocument.onmousedown=disableselect\ndocument.onclick=reEnable\n}\n</script>\n",
+    "favicon": "@PROJECT_PATH@/assets/images/54154.jpg",
+    "imageResize": false,
+    "robotsSwitcher": true,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": {
+      "customDialogSelector": true,
+      "colorText": "#424a4d",
+      "colorBg": "#f7ed4a",
+      "colorButton": "",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "opacityOverlay": "99",
+      "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+      "textButton": "Yes"
+    },
+    "gdpr": {
+      "colorText": "#a7a7a7",
+      "colorLink": "#149dcc",
+      "underlineLink": false,
+      "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
+    },
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "uniqCompNum": 4,
+    "versionPublish": "4.12.3"
+  },
+  "pages": {
+    "30.html": {
+      "settings": {
+        "main": true,
+        "title": "Алекс Фергюсон разбил бровь Дэвиду Бекхэму ",
+        "meta_descr": "15 февраля 2003 года, ровно 17 лет назад, случилось одно из самых загадочных событий в истории АПЛ.\n\n",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-figure": {
+              "margin": "0 auto"
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полная ширина\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>        \n        \n        <input type=\"range\" inline title=\"Ширина\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Градиент\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Цвет 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/54154.jpeg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"pb-5 px-3 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-figure-caption div\"></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_cid": "rXFCjAVi1P",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image2-1"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background": "linear-gradient(45deg, @bg-value, @color2)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "H1": {
+              "color": "#55b4d4"
+            }
+          },
+          "_name": "header5",
+          "_customHTML": "<section class=\"header5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Стрелка\" name=\"showArrow\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/background4.jpg\" parallax selected>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#55b4d4\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Цвет 2\" value=\"#073b4c\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>За что Фергюсон <br>17 лет назад <br>&nbsp;разбил \n</b><div><b>Бекхэму бровь</b></div></h1>\n                <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b><br></b><br>15 февраля 2003 года<br> ровно 17 лет назад<br> случилось одно из самых загадочных событий в истории АПЛ<br>После матча с«Арсеналом» в раздевалке «МЮ» <br>разгорелся скандалв ходе которого сэр Алекс Фергюсон бутсой разбил бровь <b>Дэвиду Бекхэму.</b><br> Обстоятельства, при которых это произошло, долгое время были неизвестны. Подробности раскрыли главные участники той исторической потасовки, но спустя много лет. <br>И Бекхэм, и Фергюсон в своих автобиографиях вспоминали эту историю.\n<br>\n<br>Что это был за матч\n<br>«Манчестер Юнайтед» <br>и<br> «Арсенал»<br> встретились в 1/8 финала Кубка Англии. <br>Встреча носила дополнительную интригу, ведь клубы боролись между собой за титул в АПЛ. <br>Главные тренеры выставили сильнейшие составы. <br>«Красные дьяволы» <br>могли забить уже в начале встречи: Райан Гиггз оказался на острие атаки, обвёл вратаря и защитника, но пробил мимо ворот. <br>На 34 минуте<br> «Арсенал» <br>открыл счёт – <br><b>Эду Гаспар&nbsp;</b><br>не без помощи рикошета, забил со штрафного. <br>В начале второго тайма <br>Сильвен Вильтор <br>забил второй мяч «канониров».\n<br><br><b><a href=\"https://kraiton1.github.io/012/09.html\" target=\"_blank\">Как эффективно качать пресс</a></b><br>\n<br>Гости победили со счётом 2:0, а после матча в раздевалке «МЮ» произошёл конфликт: <br>сэр Алекс Фергюсон <br>попал бутсой в <br><b>Дэвида Бекхэма</b><br> тем самым разбив ему бровь.\n<br><br>Какими были отношения <br><b>Бекхэма </b>и <b>Фергюсона </b><br>до этого\n<br>Игрок и тренер давно не ладили, взаимоотношения между ними испортились задолго до истории с бутсой. <br>Сэра Алекса не устраивал образ жизни, который вёл Дэвид:<br> «Мне не нравился его звёздный статус. <br>Он был единственным, кто хотел славы за пределами поля».\n<br>\n<br>Бекхэм в начале 2000-х считался иконой стиля. <br>Его приглашали для съёмок в рекламе, <br>предлагали спонсорские контракты. <br>Кроме того, Дэвид женился на <br><b>Виктории Адамс </b>&nbsp;<br>солистке поп-группы Spice Girls.\n<br>\n<br>\n<br><a href=\"https://www.championat.com/football/article-3796107-devid-bekhem-i-viktorija-bekhem--moda-konflikt-s-fergjusonom-mju-real.html\" target=\"_blank\">Как</a><br><b><a href=\"https://www.championat.com/football/article-3796107-devid-bekhem-i-viktorija-bekhem--moda-konflikt-s-fergjusonom-mju-real.html\" target=\"_blank\"> Виктория Бекхэм </a></b><br><a href=\"https://www.championat.com/football/article-3796107-devid-bekhem-i-viktorija-bekhem--moda-konflikt-s-fergjusonom-mju-real.html\" target=\"_blank\">превратила </a><br><b><a href=\"https://www.championat.com/football/article-3796107-devid-bekhem-i-viktorija-bekhem--moda-konflikt-s-fergjusonom-mju-real.html\" target=\"_blank\">Дэвида Бекхэма </a></b><br><a href=\"https://www.championat.com/football/article-3796107-devid-bekhem-i-viktorija-bekhem--moda-konflikt-s-fergjusonom-mju-real.html\" target=\"_blank\">из звезды футбола в поп-звезду\n</a><br><br>Конфликт с Фергюсоном, ненависть болельщиков и 40 причесок.\n<br><b>Бекхэм </b><br>перестал быть просто футболистом. <br>По мнению Фергюсона, всё это отвлекало его от игры. Папарацци следили за каждым шагом Дэвида, что уж говорить о смене имиджа.<br> Сэр Алекс вспоминает историю, которая случилась перед матчем с «Лестером»:<br> «По дороге на базу «МЮ» я встретил около 20 фотографов. <br>«Что тут происходит?», — поинтересовался я.<br> Мне сказали, что Дэвид Бекхэм сделал новую стрижку, которую он собирается показать завтра».\n<br>\n<br>На командный ужин за день до игры Бекхэм пришёл в шапке. <br>Дэвид отказался снять головной убор, отчего Фергюсон был вне себя. <br>На предматчевой разминке сэр Алекс не выдержал и сорвал шапку – голова Бекхэма была полностью лысая. <br>«И ради этого был весь этот цирк? <br>Бритая голова, которую никто не должен видеть?»\n<br>\n<br>Хотя в конце 1990-х всё в отношениях Фергюсона и Бекхэма было совсем по-другому. <br>В интервью на радио BBC Бекс рассказал, как сэр Алекс поддержал его после матча Англия – Аргентина в 1998-м. <br>Тогда футболист получил красную карточку, и его сборная не прошла дальше на том ЧМ.\n<br>\n<br>«Первым, кто позвонил мне после этой игры, был Фергюсон», — рассказал бывший капитан сборной Англии. <br>«Он сказал: «Сынок, возвращайся в Манчестер, все будет хорошо». <br>И это дало мне силы, чтобы действительно пережить, вероятно, самое трудное время в моей жизни».\n<br>\n<br>Но чем больше менялся стиль жизни Бекхэма, тем сильнее портились их отношения с главным тренером «МЮ».\n<br><br>Терпение Фергюсона закончилось в том самом матче с «Арсеналом». <br>Что же на самом деле произошло в раздевалке?\n<br>\n<br>Версия Фергюсона.<br> По мнению главного тренера «МЮ», Бекхэм недостаточно отрабатывал в обороне: «Во время второго гола, который забил Сильвен Вильтор, Дэвид лёгким шагом возвращался в оборону. <br>Вильтор спокойно убегал от него. <br>Естественно, что я не мог оставить это без внимания. <br>Но в то время Бекхэм уже не прислушивался к моей критике. <br>Возможно, он уже начал думать, что ему необязательно отрабатывать в защите, преследовать игроков соперника. <br>А ведь именно эти качества сделали его тем футболистом, которым он стал».\n<br>\n<br>После игры сэр Алекс и Дэвид начали спорить. <br>Вопреки популярной версии, Фергюсон не бросил бутсу в Бекхэма: «Нас разделяло около трёх с половиной метров, на полу валялась куча бутс. <br>Я пнул одну из них, она полетела в Бекхэма и угодила ему чуть выше глаза. <br>Он вскочил на ноги и бросился в мою сторону, но остальные игроки остановили Дэвида. <br>Я сказал ему: «Сядь, ты позоришь свою команду».\n<br>\n<br>Версия Бекхэма. <br>В своей автобиографии Дэвид также поднял эту историю. <br>По его словам, Фергюсон зашёл в раздевалку со словами: «Эй, Дэвид, как насчёт второго гола?»<br> Сам Бекхэм считал, что он не виновен в пропущенном мяче.<br> Возникла словесная перепалка, по ходу которой<br> «Фергюсон размахнулся и ударил со всей силы по бутсе, которая лежала на полу».\n<br>\n<br>Дальше всё было <br>«как в гангстерском боевике»: Дэвид бросился на сэра Алекса, футболиста держали трое одноклубников – Гиггз, ван Нистелрой и Гари Невилл. <br>Как говорит сам Бекхэм, Фергюсон извинился перед ним прямо в раздевалке, но этого было недостаточно: «После того, как это стало достоянием общественности, я был вправе рассчитывать на то, что тренер извинится публично».\n<br>\n<br>Что об этом писали\n<br>Конфликт получил огласку уже на следующий день. <br>Британские газеты вышли с фотографией Дэвида на главной странице, где над бровью футболиста красовался шрам, заклеенный пластырем. <br>В прессе появился диалог, который якобы произошёл между Фергюсоном и Бекхэмом.\n<br>\n<br>Дэвид не лучшим образом провёл матч, его плотно опекал Эшли Коул. <br>Сэр Алекс назвал Бекхэма «девочкой», после чего Дэвид сказал: «Такой же девочкой, какой был Алекс Фергюсон на фоне Арсена Венгера?». <br>Уже после этого, по мнению прессы, были бутса, рассечённая бровь и потасовка.\n<br><br>Что было дальше\n<br>Фергюсон пытался доказать Дэвиду, что инцидент стал следствием игровых проблем: «Я пригласил Бекхэма к себе в кабинет и показал ему видео с матча, но он всё равно не принял мои аргументы. <br>Он даже не ответил мне! «Ты понимаешь, о чём мы говорим, почему я недоволен тобой?» – спросил я. <br>Но Дэвид мне так и не ответил». <br>В то же время Бекхэм ждал публичных извинений от Фергюсона.\n<br>\n<br>Стороны не пришли к перемирию – сэр Алекс обратился к руководству «МЮ» с просьбой продать Бекхэма. <br>По окончании сезона Дэвид перешёл в мадридский «Реал», сумма трансфера составила 37 млн евро. <br>Через месяц «красные дьяволы» приобрели юного Криштиану Роналду. <br>В своей автобиографии сэр Алекс написал: «Как только игрок начинает думать, что он важнее тренера, он должен уйти. <br>Если тренер теряет власть, то у него нет клуба».\n<br>\n<br>Впрочем, в 2017 году Дэвид Бекхэм в интервью для The Guardian признал, что был неправ в своем поведении тех лет: «Я понял свою ошибку, уже повзрослев. <br>Тогда мне было двадцать с небольшим, не все мои решения были правильными. <br>Теперь я понимаю, почему сэр Алекс был так рассержен».\n<br>\n<br>\n<br><br><br><br><br><br>источник: https://www.championat.com</p>\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Введите Текст\">ДЕМО</a></div>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "rXFyllLT0D",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header5-0"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "[class^=\"socicon-\"]:before, [class*=\" socicon-\"]:before": {
+              "line-height": "44px"
+            },
+            ".btn-social": {
+              "font-size": "20px",
+              "border-radius": "50%",
+              "padding": "0",
+              "width": "44px",
+              "height": "44px",
+              "line-height": "44px",
+              "text-align": "center",
+              "position": "relative",
+              "color": "rgb(35, 35, 35)",
+              "cursor": "pointer",
+              "i": {
+                "top": "0",
+                "line-height": "44px",
+                "width": "44px"
+              },
+              "&:hover": {
+                "color": "#fff",
+                "background": "@iconsColor",
+                "& i.socicon": {
+                  "color": "contrast(@iconsColor) !important"
+                }
+              },
+              "& + .btn": {
+                "margin-left": ".1rem"
+              },
+              "border-color": "@iconsColor"
+            },
+            "@media (max-width: 767px)": {
+              ".btn": {
+                "font-size": "20px !important"
+              }
+            },
+            ".btn-social, .mbr-section-title ": {
+              "color": "#073b4c"
+            }
+          },
+          "_name": "social-buttons1",
+          "_customHTML": "<section group=\"Social\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"SocialLikes\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline type=\"range\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input inline type=\"range\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Иконки - Цвет\" name=\"iconsColor\" value=\"#0f7699\">\n\n        <header>Совместно использовать текущую страницу</header>\n        <input type=\"checkbox\" title=\"Facebook\" name=\"facebook\">\n        <input type=\"checkbox\" title=\"Twitter\" name=\"twitter\">\n        <input type=\"checkbox\" title=\"ВКонтакте\" name=\"vkontakte\" checked>\n        <input type=\"checkbox\" title=\"Одноклассники\" name=\"odnoklassniki\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/mbr-3.jpeg\" selected parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Фоновое видео\" value>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-md-8 align-center\">\n                <h2 class=\"pb-3 mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".btn-social, .mbr-section-title \"></h2>\n                <div>\n                    <div class=\"mbr-social-likes\" data-counters=\"false\">\n                        <span mbr-if=\"facebook\" class=\"btn btn-social facebook mx-2\" title=\"Поделиться в Facebook\">\n                            <i class=\"socicon socicon-facebook\"></i>\n                        </span>\n                        <span mbr-if=\"twitter\" class=\"btn btn-social twitter mx-2\" title=\"Поделиться в Twitter\">\n                            <i class=\"socicon socicon-twitter\"></i>\n                        </span>\n                        <span mbr-if=\"vkontakte\" class=\"btn btn-social vkontakte mx-2\" title=\"Поделиться в VK\">\n                            <i class=\"socicon socicon-vkontakte\"></i>\n                        </span>\n                        <span mbr-if=\"odnoklassniki\" class=\"btn btn-social odnoklassniki mx-2\" title=\"Поделиться в OK\">\n                            <i class=\"socicon socicon-odnoklassniki\"></i>\n                        </span>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rXFIsTpdbs",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "social-buttons1-3"
+        }
+      ]
+    }
+  }
+}
